@@ -1,4 +1,4 @@
-# Quantitative Research Engine — Time Series + SQL + Risk Analytics
+# Quantitative Research Engine Time Series + SQL + Risk Analytics
 
 A full-stack **quantitative research platform** combining SQL analytics pipeline, time series forecasting, and market risk dashboard — built specifically for Quantitative Research Analyst roles.
 
