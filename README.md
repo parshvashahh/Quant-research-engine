@@ -4,14 +4,14 @@ A full-stack **quantitative research platform** combining SQL analytics pipeline
 
 ---
 
-## What This Project Does
+#What This Project Does
 
-### Module 1 — SQL Analytics Pipeline
+#Module 1 — SQL Analytics Pipeline
 - SQLite database with **5 normalized tables** (stock_prices, stock_returns, macro_indicators, stock_volume, stock_metadata)
 - **8 advanced SQL queries** using Window Functions, CTEs, Joins, Aggregations
 - Sector performance analysis, drawdown computation, volatility regime detection
 
-### Module 2 — Time Series Forecasting Engine
+#Module 2 — Time Series Forecasting Engine
 - **ADF Stationarity Test** — validates whether series is stationary before modeling
 - **ACF/PACF Analysis** — autocorrelation structure for lag selection
 - **ARIMA(2,1,0)** — fitted via OLS with AIC/BIC model selection
@@ -19,7 +19,7 @@ A full-stack **quantitative research platform** combining SQL analytics pipeline
 - **Rolling Walk-Forward Evaluation** — RMSE, MAE, MAPE, Directional Accuracy
 - **Exponential Smoothing** — simple baseline forecasting
 
-### Module 3 — Market Risk Dashboard
+# Module 3 — Market Risk Dashboard
 - Cross-asset correlation heatmap
 - Macro factor correlation (Repo Rate, CPI, USD/INR, Crude Oil, VIX)
 - Sector cumulative return comparison
@@ -28,7 +28,7 @@ A full-stack **quantitative research platform** combining SQL analytics pipeline
 
 ---
 
-## Project Structure
+#Project Structure
 
 ```
 project6_quant_research_engine/
@@ -55,7 +55,7 @@ project6_quant_research_engine/
 
 ---
 
-## SQL Queries — Key Techniques
+#SQL Queries — Key Techniques
 
 | Query | SQL Features Used |
 |-------|-------------------|
@@ -70,7 +70,7 @@ project6_quant_research_engine/
 
 ---
 
-##  Key Output Numbers
+# Key Output Numbers
 
 | Metric | Value |
 |--------|-------|
@@ -85,7 +85,7 @@ project6_quant_research_engine/
 
 
 
-##  Tech Stack
+# Tech Stack
 `Python` `SQL` `SQLite` `Pandas` `NumPy` `SciPy` `Matplotlib`
 
 ---
