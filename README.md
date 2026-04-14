@@ -1,16 +1,10 @@
-# 📊 Quantitative Research Engine — Time Series + SQL + Risk Analytics
+# Quantitative Research Engine — Time Series + SQL + Risk Analytics
 
 A full-stack **quantitative research platform** combining SQL analytics pipeline, time series forecasting, and market risk dashboard — built specifically for Quantitative Research Analyst roles.
 
-## 🎯 Target Roles
-Quantitative Research Analyst | Quantitative Risk Analyst | Data Analyst — Finance
-
-## 🏦 Relevant For
-CRISIL | State Street | Avendus Capital | JPMorgan India | Nuvama Asset Management
-
 ---
 
-## 📌 What This Project Does
+## What This Project Does
 
 ### Module 1 — SQL Analytics Pipeline
 - SQLite database with **5 normalized tables** (stock_prices, stock_returns, macro_indicators, stock_volume, stock_metadata)
@@ -34,7 +28,7 @@ CRISIL | State Street | Avendus Capital | JPMorgan India | Nuvama Asset Manageme
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 project6_quant_research_engine/
@@ -57,22 +51,11 @@ project6_quant_research_engine/
 
 ---
 
-## 🚀 How To Run
 
-```bash
-# Step 1: Install dependencies
-pip install -r requirements.txt
-
-# Step 2: Generate dataset and database
-python generate_data.py
-
-# Step 3: Run full research engine
-python quant_research_engine.py
-```
 
 ---
 
-## 🗃️ SQL Queries — Key Techniques
+## SQL Queries — Key Techniques
 
 | Query | SQL Features Used |
 |-------|-------------------|
@@ -87,7 +70,7 @@ python quant_research_engine.py
 
 ---
 
-## 📈 Key Output Numbers
+##  Key Output Numbers
 
 | Metric | Value |
 |--------|-------|
@@ -100,24 +83,10 @@ python quant_research_engine.py
 
 ---
 
-## 🧠 Interview Talking Points
 
-1. **Why SQLite over pandas for analytics?** SQL is declarative — I define what I want, not how to compute it. Window functions like RANK() and SUM() OVER are more readable and often faster than equivalent pandas operations for large datasets.
 
-2. **Why ADF test before ARIMA?** ARIMA requires stationary input. Non-stationary series (random walk) cannot be modeled by ARIMA. ADF test formally validates stationarity. If prices fail ADF, I apply first differencing (d=1) which converts price levels to returns — confirmed stationary.
-
-3. **What is EWMA volatility and why use it over simple rolling std?** EWMA gives exponentially more weight to recent observations using lambda=0.94 (RiskMetrics standard). During a volatility spike, EWMA responds faster than a 30-day rolling window which equally weights all 30 days. More responsive = better for risk management.
-
-4. **What does directional accuracy mean?** It measures what percentage of the time my forecast correctly predicted whether the price would go up or down — regardless of magnitude. 53% directional accuracy beats the 50% random baseline, showing the model has some signal even if magnitude predictions are noisy.
-
-5. **Why normalize tables in SQL?** Normalized tables avoid data redundancy. Stock metadata stored once in stock_metadata table, not repeated in every row of stock_prices. This is the 3NF (Third Normal Form) database design principle used in production financial systems.
-
----
-
-## 🛠️ Tech Stack
+##  Tech Stack
 `Python` `SQL` `SQLite` `Pandas` `NumPy` `SciPy` `Matplotlib`
 
 ---
 
-## 🔑 ATS Keywords
-Time series forecasting, ARIMA, stationarity, ADF test, EWMA, SQL window functions, quantitative research, financial analytics, data pipeline, market risk, volatility modeling, autocorrelation, statistical modeling, Python, SQL, risk-adjusted returns
