@@ -1,4 +1,4 @@
-# Quantitative Research Engine Time Series + SQL + Risk Analytics
+#Quantitative Research Engine Time Series + SQL + Risk Analytics
 
 A full-stack **quantitative research platform** combining SQL analytics pipeline, time series forecasting, and market risk dashboard — built specifically for Quantitative Research Analyst roles.
 
@@ -70,7 +70,7 @@ project6_quant_research_engine/
 
 ---
 
-# Key Output Numbers
+#Key Output Numbers
 
 | Metric | Value |
 |--------|-------|
@@ -85,7 +85,7 @@ project6_quant_research_engine/
 
 
 
-# Tech Stack
+#Tech Stack
 `Python` `SQL` `SQLite` `Pandas` `NumPy` `SciPy` `Matplotlib`
 
 ---
