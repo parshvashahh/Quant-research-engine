@@ -6,12 +6,12 @@ A full-stack **quantitative research platform** combining SQL analytics pipeline
 
 #What This Project Does
 
-#Module 1 — SQL Analytics Pipeline
+# Module 1 — SQL Analytics Pipeline
 - SQLite database with **5 normalized tables** (stock_prices, stock_returns, macro_indicators, stock_volume, stock_metadata)
 - **8 advanced SQL queries** using Window Functions, CTEs, Joins, Aggregations
 - Sector performance analysis, drawdown computation, volatility regime detection
 
-#Module 2 — Time Series Forecasting Engine
+# Module 2 — Time Series Forecasting Engine
 - **ADF Stationarity Test** — validates whether series is stationary before modeling
 - **ACF/PACF Analysis** — autocorrelation structure for lag selection
 - **ARIMA(2,1,0)** — fitted via OLS with AIC/BIC model selection
